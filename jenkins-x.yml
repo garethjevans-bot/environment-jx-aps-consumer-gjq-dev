@@ -4,7 +4,11 @@ pipelineConfig:
     pullRequest:
       pipeline:
         agent:
+<<<<<<< HEAD
           image: gcr.io/jenkinsxio/builder-go:0.1.786
+=======
+          image: gcr.io/jenkinsxio/builder-go
+>>>>>>> dfcb896... chore(config): update configuration
         stages:
         - name: pr
           steps:
@@ -16,7 +20,11 @@ pipelineConfig:
     release:
       pipeline:
         agent:
+<<<<<<< HEAD
           image: gcr.io/jenkinsxio/builder-go:0.1.786
+=======
+          image: gcr.io/jenkinsxio/builder-go
+>>>>>>> dfcb896... chore(config): update configuration
         environment:
         - name: DEPLOY_NAMESPACE
           value: jx
