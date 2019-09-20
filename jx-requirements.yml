@@ -2,7 +2,6 @@ autoUpdate:
   enabled: false
   schedule: ""
 cluster:
-<<<<<<< HEAD
   clusterName: jx-aps-consumer-gjq
   environmentGitOwner: garethjevans-test
   environmentGitPublic: true
@@ -16,21 +15,6 @@ cluster:
   provider: gke
   vaultName: jx-aps-consumer-gjq
   vaultSAName: jx-aps-consumer-gjq-vt
-=======
-  clusterName: jx-aps-consumer-gjp
-  environmentGitOwner: garethjevans-test
-  environmentGitPublic: true
-  externalDNSSAName: jx-aps-consumer-gjp-dn
-  gitKind: github
-  gitName: github
-  gitServer: https://github.com
-  kanikoSAName: jx-aps-consumer-gjp-ko
-  namespace: jx
-  project: cb-aps-poc-consumer-gjp
-  provider: gke
-  vaultName: jx-aps-consumer-gjp
-  vaultSAName: jx-aps-consumer-gjp-vt
->>>>>>> dfcb896... chore(config): update configuration
   zone: us-east1-c
 environments:
 - ingress:
@@ -63,11 +47,7 @@ environments:
 gitops: true
 ingress:
   cloud_dns_secret_name: external-dns-gcp-sa
-<<<<<<< HEAD
   domain: cb-aps-poc-consumer-gjq.jxaas.io
-=======
-  domain: cb-aps-poc-consumer-gjp.jxaas.io
->>>>>>> dfcb896... chore(config): update configuration
   domainIssuerURL: https://jx-tenant-service-jx-staging.jenkins-x.live
   externalDNS: true
   namespaceSubDomain: -jx.
@@ -91,19 +71,11 @@ storage:
     enabled: false
     url: ""
 vault:
-<<<<<<< HEAD
   bucket: cb-aps-poc-consumer-gjq-vault
   key: jx-aps-consumer-gjq-crypto-key
   keyring: jx-aps-consumer-gjq-keyring
   name: jx-aps-consumer-gjq
   serviceAccount: jx-aps-consumer-gjq-vt
-=======
-  bucket: cb-aps-poc-consumer-gjp-vault
-  key: jx-aps-consumer-gjp-crypto-key
-  keyring: jx-aps-consumer-gjp-keyring
-  name: jx-aps-consumer-gjp
-  serviceAccount: jx-aps-consumer-gjp-vt
->>>>>>> dfcb896... chore(config): update configuration
 velero: {}
 versionStream:
   ref: ""
