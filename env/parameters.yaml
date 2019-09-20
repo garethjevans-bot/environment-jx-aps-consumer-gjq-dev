@@ -7,7 +7,7 @@ dashboardAuthSecret: vault:jx-aps-consumer-gjq:dashboardAuthSecret
 dashboardGrpchost: dex.jx
 enableDocker: false
 pipelineUser:
-  email: PIPELINE_GITHUB_EMAIL
+  email: jenkins-x@cloudbees.com
   token: vault:jx-aps-consumer-gjq/pipelineUser:token
   username: garethjevans-bot
 prow:
