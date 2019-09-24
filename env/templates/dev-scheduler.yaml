@@ -41,7 +41,6 @@ spec:
     protectTested: true
   postsubmits:
     replace: true
-    entries: {}
   presubmits:
     replace: true
     entries:
