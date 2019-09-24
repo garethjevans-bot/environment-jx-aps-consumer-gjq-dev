@@ -49,7 +49,7 @@ gitops:
 {{- else }}
     dockerRegistryOrg: ""
 {{- end }}
-
+    scheduler: dev-scheduler
 
   staging:
     repo: "{{ .Environments.staging.repository }}"
