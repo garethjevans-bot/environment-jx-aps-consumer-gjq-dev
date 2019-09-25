@@ -10,6 +10,8 @@ spec:
     metadata:
       creationTimestamp: null
     spec:
+      parallelism: 1
+      completions: 1
       template:
         metadata:
           creationTimestamp: null
