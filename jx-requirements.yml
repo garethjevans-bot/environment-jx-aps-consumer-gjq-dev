@@ -1,6 +1,6 @@
 autoUpdate:
-  enabled: false
-  schedule: ""
+  enabled: true
+  schedule: "0 * * * *"
 cluster:
   clusterName: jx-aps-consumer-gjq
   environmentGitOwner: garethjevans-test
