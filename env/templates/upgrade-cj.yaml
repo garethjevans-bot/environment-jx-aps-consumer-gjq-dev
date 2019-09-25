@@ -19,7 +19,8 @@ spec:
         spec:
           containers:
           - args:
-            - bu       
+            - upgrade 
+            - boot
             command:
             - jx            
             image: gcr.io/jenkinsxio/builder-jx:0.1.796
