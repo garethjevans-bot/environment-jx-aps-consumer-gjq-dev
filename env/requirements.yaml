@@ -25,5 +25,7 @@ dependencies:
   repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
   version: 0.0.792
 - name: jx-app-kuberhealthy
-  repository: http://chartmuseum.jenkins-x.io
+  repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
   version: 0.0.2
+  condition: jx-app-kuberhealthy.enabled
+  alias: jx-app-kuberhealthy
