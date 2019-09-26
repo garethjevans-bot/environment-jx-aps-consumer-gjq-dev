@@ -24,6 +24,10 @@ pipelineConfig:
           value: garethjevans-bot
         - name: GIT_AUTHOR_EMAIL
           value: jenkins-x@cloudbees.com
+        - name: GIT_AUTHOR_NAME
+          value: garethjevans-bot
+        - name: GIT_AUTHOR_EMAIL
+          value: jenkins-x@cloudbees.com
         stages:
         - name: release
           steps:
