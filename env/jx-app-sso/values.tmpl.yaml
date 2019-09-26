@@ -10,4 +10,3 @@ dex:
         clientSecret: "{{ .Parameters.dashboardAuthSecret }}"
         orgs:
         - "{{ .Parameters.dashboardAuthOrg }}"
-  replicas: 2
