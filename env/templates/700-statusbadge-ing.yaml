@@ -10,12 +10,12 @@ spec:
     http:
       paths:
       - backend:
-          serviceName: statusbadge
+          serviceName: jenkins-x-status-badge
           servicePort: 80
 {{- if .Values.cluster.tls }}
   tls:
   - hosts:
-    - kuberhealthy{{ .Values.cluster.namespaceSubDomain }}{{ .Values.cluster.domain }}
+    - statusbadge{{ .Values.cluster.namespaceSubDomain }}{{ .Values.cluster.domain }}
 {{- if eq .Values.certmanager.production "true" }}
     secretName: "tls-{{ .Values.cluster.domain | replace "." "-" }}-p"
 {{- else }}
