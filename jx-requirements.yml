@@ -78,6 +78,6 @@ vault:
   serviceAccount: jx-aps-consumer-gjq-vt
 velero: {}
 versionStream:
-  ref: ""
-  url: ""
+  ref: master
+  url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
