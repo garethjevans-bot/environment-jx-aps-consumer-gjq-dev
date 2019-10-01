@@ -1,3 +1,4 @@
+![Build Status](https://img.shields.io/endpoint?style=plastic&url=https%3A%2F%2Fstatusbadge-jx.cb-aps-poc-consumer-gjq.jxaas.io%2Fenvironment-jx-aps-consumer-gjq-dev)
 
 ## Jenkins X Boot Configuration
 
